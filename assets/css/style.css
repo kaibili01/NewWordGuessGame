@@ -52,15 +52,20 @@ body {
     color: #f0ede8;
     font-weight: 400;
     font-size: 3rem;
+    text-align: center;
   }
   
   .gamebody {
     text-align: center;
+    
   }
   
   img {
-    height: 80%;
-    width: 80%;
-    padding: 0 0 20px 50px;
+    
+    height: 55%;
+    width: 55%;
+    padding: 10px 10px 10px 10px;
+    /* align-content: center; */
+
   }
   
