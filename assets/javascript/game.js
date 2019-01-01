@@ -71,7 +71,7 @@ function continueGame(input) {
 
     } else {
         if (gameStart === false) {
-            alert("Click Start Game button to start");
+            alert("Click Start Game button to start: Press the space bar when you are done");
         } else {
             alert("You already tried this guess. Try another letter");
         }
