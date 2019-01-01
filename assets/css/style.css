@@ -1,0 +1,66 @@
+body {
+    background-image: url("http://wallpaperlepi.com/wp-content/uploads/2014/10/Black-White-Joker-Wallpaper-Android.jpg");
+  }
+  
+  .jumbotron {
+    background: rgba(116, 115, 115, 0.450);
+  }
+  
+  h1 {
+    font-family: "Bangers", cursive;
+    letter-spacing: 0.2rem;
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    background: -webkit-linear-gradient(rgb(196, 195, 195), whitesmoke);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  h2 {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(202, 20, 20);
+    background: -webkit-linear-gradient(rgb(245, 84, 84), rgb(121, 27, 27));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .startButton {
+    font-family: "Fjalla One", cursive;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(90, 39, 39);
+    color: whitesmoke;
+    bottom: 0;
+  }
+  
+  #EnterID {
+    text-decoration: underline;
+  }
+  .rowStyling {
+    width: 100%;
+  }
+  .columnStyling {
+    background: rgba(75, 74, 74, 0.808);
+  }
+  
+  p {
+    font-family: "Fjalla One", sans-serif, cursive;
+    color: #f0ede8;
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  
+  .gamebody {
+    text-align: center;
+  }
+  
+  img {
+    height: 80%;
+    width: 80%;
+    padding: 0 0 20px 50px;
+  }
+  
