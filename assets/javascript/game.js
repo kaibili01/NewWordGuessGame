@@ -38,7 +38,7 @@ function startGame() {
     document.getElementById('resultAnswer').textContent = "";
 
     randomCard = faceCards[Math.floor(Math.random() * faceCards.length)];
-    console.log(randomCard);
+    // console.log(randomCard);
 
     for (var i = 0; i < randomCard.length; i++) {
         randomCardUnderscore.push('_');
@@ -53,9 +53,9 @@ function startGame() {
 function generateCard(randomCard) {
    var img = document.createElement("img");
 //    var newCard = randomCard.split(" ").join("_");
-   console.log('cards', randomCard);
+//    console.log('cards', randomCard);
    img.setAttribute("src", "assets/images/cards/"+randomCard+".png");
-   console.log('img with src', img);
+//    console.log('img with src', img);
    document.getElementById("pokerCardDisplay").append(img);
 }
 
