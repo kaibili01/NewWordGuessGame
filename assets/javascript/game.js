@@ -1,20 +1,20 @@
 var faceCards = [
-    'ace of diamonds',
-    'ace of spades',
-    'ace of clubs',
-    'ace of hearts',
-    'king of diamonds',
-    'king of spades',
-    'king of clubs',
-    'king of hearts',
-    'queen of diamonds',
-    'queen of spades',
-    'queen of clubs',
-    'queen of hearts',
-    'jack of diamonds',
-    'jack of spades',
-    'jack of clubs',
-    'jack of hearts',
+    'ace_of_diamonds',
+    'ace_of_spades',
+    'ace_of_clubs',
+    'ace_of_hearts',
+    'king_of_diamonds',
+    'king_of_spades',
+    'king_of_clubs',
+    'king_of_hearts',
+    'queen_of_diamonds',
+    'queen_of_spades',
+    'queen_of_clubs',
+    'queen_of_hearts',
+    'jack_of_diamonds',
+    'jack_of_spades',
+    'jack_of_clubs',
+    'jack_of_hearts',
     
 ]
 
@@ -52,8 +52,10 @@ function startGame() {
 
 function generateCard(randomCard) {
    var img = document.createElement("img");
-       console.log(img);
-   img.setAttribute("src", "assets/images/cards/" + randomCard + ".png");
+//    var newCard = randomCard.split(" ").join("_");
+   console.log('cards', randomCard);
+   img.setAttribute("src", "assets/images/cards/"+randomCard+".png");
+   console.log('img with src', img);
    document.getElementById("pokerCardDisplay").append(img);
 }
 
